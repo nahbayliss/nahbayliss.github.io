@@ -1,3 +1,43 @@
+@font-face {
+  font-family: Gotham;
+  src: url(Gotham-Bold.otf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(Quicksand_Light.otf);
+}
+p{
+    font-family: Quicksand;
+}
+h2{
+    font-family: Gotham;
+    background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 50%;
+}
+h3{
+    font-family: Gotham;
+    background: -webkit-linear-gradient(360deg, #6A21FF, #F3540E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 50%;
+}
+h4{
+    font-family: Gotham;
+}
+h5{
+    font-family: Gotham;
+}
+button{
+    font-family: Quicksand;
+    background: transparent;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .navbar{
     background-color: transparent;
     border: none;
@@ -5,6 +45,12 @@
 }
 .navbar-brand{
     color: white;
+    font-family: Gotham;
+    margin-left: 15%;
+    padding-left: 0;
+}
+.navbar-header{
+    float: none;
 }
 #headerVideo{
   width: 100%;
@@ -15,28 +61,44 @@
     padding-right: 0;
     overflow: hidden;
 }
-.aboveFold{
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  width: 100%;
-  padding: 20px;
+.headerText{
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 15%;
+    font-family: Gotham;
 }
 #aboutMe{
     margin-top: 5%;
 }
+.aboutMeLeft{
+    padding-left: 15%;
+    
+}
+.aboutMeRight{
+    padding-right: 15%;
+}
 #projects{
     margin-top: 5%;
 }
+.projectsLeft{
+    padding-left: 15%;
+}
+.projectsRight{
+    padding-right: 15%;
+}
 #footer{
     margin-top: 5%;
+    margin-bottom: 10px;
     
 }
 .footer-text{
-    
+    padding-left: 15%;
 }
 .socialIcons{
     text-align: center;
     width: 5%;
+}
+.copyright{
+    padding-top: 20px;
 }
