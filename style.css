@@ -14,7 +14,9 @@ h2{
     background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-right: 50%;
+    margin-right: 30%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 h3{
     font-family: Gotham;
@@ -37,9 +39,17 @@ button{
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin-top: 5%;
+}
+button:hover{
+    background-color: white;
+    color: black;
 }
 .navbar{
-    background-color: transparent;
+    background-color: #060606;
     border: none;
     
 }
@@ -60,6 +70,7 @@ button{
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
+    margin-bottom: -5px;
 }
 .headerText{
     position: absolute;
@@ -69,17 +80,26 @@ button{
     font-family: Gotham;
 }
 #aboutMe{
-    margin-top: 5%;
+    padding-top: 5%;
+    background-color: #060606;
+    padding-bottom: 5%;
 }
 .aboutMeLeft{
     padding-left: 15%;
     
 }
+.imgSelf{
+    width: 50%;
+    float: right;
+    margin-right: 20%;
+}
 .aboutMeRight{
     padding-right: 15%;
+    color: white;
 }
 #projects{
     margin-top: 5%;
+    color: black;
 }
 .projectsLeft{
     padding-left: 15%;
@@ -88,9 +108,10 @@ button{
     padding-right: 15%;
 }
 #footer{
-    margin-top: 5%;
-    margin-bottom: 10px;
-    
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #060606;
 }
 .footer-text{
     padding-left: 15%;
@@ -99,6 +120,10 @@ button{
     text-align: center;
     width: 5%;
 }
+.iconButtons{
+    text-align: center;
+}
 .copyright{
     padding-top: 20px;
+    text-align: center;
 }
