@@ -12,7 +12,7 @@ h2{
     padding-top: 5%;
 }
 h3{
-    font-family: Gotham;
+    font-family: 'Gotham';
     background: -webkit-linear-gradient(360deg, #6A21FF, #F3540E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -78,7 +78,7 @@ button:hover{
     top: 40%;
     color: white;
     left: 15%;
-    font-family: Gotham;
+    font-family: 'Gotham';
 }
 #aboutMe{
     padding-top: 5%;
