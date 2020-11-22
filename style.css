@@ -3,7 +3,7 @@ p{
     font-family: 'Quicksand', sans-serif;
 }
 h2{
-    font-family: Gotham;
+    font-family: 'Gotham';
     background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -19,10 +19,10 @@ h3{
     margin-right: 50%;
 }
 h4{
-    font-family: Gotham;
+    font-family: 'Gotham';
 }
 h5{
-    font-family: Gotham;
+    font-family: 'Gotham';
 }
 button{
     font-family: 'Quicksand', sans-serif;
@@ -56,7 +56,7 @@ button:hover{
 }
 .navbar-brand{
     color: white;
-    font-family: Gotham;
+    font-family: 'Gotham';
     margin-left: 15%;
     padding-left: 0;
 }
