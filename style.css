@@ -1,4 +1,12 @@
 
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand:hover{
+    background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 p{
     font-family: 'Quicksand', sans-serif;
 }
@@ -117,6 +125,9 @@ button:hover{
     color: black;
     background-color: black;
     height: 2px;
+}
+.row{
+    margin-right: 0;
 }
 #footer{
     padding-top: 30px;
