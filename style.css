@@ -118,6 +118,15 @@ button:hover{
     padding-right: 15%;
     color: white;
 }
+.downButton{
+    padding: 0;
+    width: 200px !important;
+    height: 40px !important;
+    float: left;
+}
+.scrollBtn{
+    float:left;
+}
 #projects{
     margin-top: 5%;
     color: black;
@@ -133,6 +142,9 @@ button:hover{
     color: black;
     background-color: black;
     height: 2px;
+}
+.seemoreBtn{
+    height: 100px !important;
 }
 .row{
     margin-right: 0;
