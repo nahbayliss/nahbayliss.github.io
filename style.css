@@ -91,6 +91,8 @@ button:hover{
 }
 .aboutLine{
     color: white;
+    background-color: white;
+    height: 2px;
 }
 .imgSelf{
     width: 50%;
@@ -113,6 +115,8 @@ button:hover{
 }
 .projectsLine{
     color: black;
+    background-color: black;
+    height: 2px;
 }
 #footer{
     padding-top: 30px;
