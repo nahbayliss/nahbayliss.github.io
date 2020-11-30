@@ -89,6 +89,9 @@ button:hover{
     padding-left: 15%;
     
 }
+.aboutLine{
+    color: white;
+}
 .imgSelf{
     width: 50%;
     float: right;
@@ -107,6 +110,9 @@ button:hover{
 }
 .projectsRight{
     padding-right: 15%;
+}
+.projectsLine{
+    color: black;
 }
 #footer{
     padding-top: 30px;
