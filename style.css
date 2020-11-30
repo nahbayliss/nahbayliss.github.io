@@ -3,7 +3,7 @@ p{
     font-family: 'Quicksand', sans-serif;
 }
 h2{
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
     background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -12,17 +12,17 @@ h2{
     padding-top: 5%;
 }
 h3{
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
     background: -webkit-linear-gradient(360deg, #6A21FF, #F3540E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-right: 50%;
 }
 h4{
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
 }
 h5{
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
 }
 button{
     font-family: 'Quicksand', sans-serif;
@@ -56,7 +56,7 @@ button:hover{
 }
 .navbar-brand{
     color: white;
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
     margin-left: 15%;
     padding-left: 0;
 }
@@ -78,7 +78,7 @@ button:hover{
     top: 40%;
     color: white;
     left: 15%;
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
 }
 #aboutMe{
     padding-top: 5%;
