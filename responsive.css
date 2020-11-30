@@ -1,0 +1,78 @@
+/*mobile view*/
+@media only screen and (max-width: 480px){
+    html, body{
+        max-width: 100%;
+    overflow-x: hidden;
+    }
+    #headerVideo{
+        width: 200%;
+    }
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px; 
+    }
+    .headerText{
+        top: 25%;
+    }
+    .navbar-header{
+        float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    }
+    .navbar-brand{
+    float: none;
+        margin-left: 0;
+    }
+    h2{
+        font-size:18px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .aboutMeRight{
+        padding-right: 0px;
+    }
+    .aboutMeLeft{
+        padding-left: 0px;
+    }
+    .imgSelf{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        float: none;
+    }
+    .aboutH2{
+        text-align: right;
+        margin-right: 5%;
+    }
+    .scrollBtn{
+        float: none;
+    }
+    .downButton{
+        float:none;
+    }
+    .projectsLeft{
+        padding: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .projectsRight{
+        padding: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+    }
+    .projectRows{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .iconButtons{
+        margin-top: 5%;
+    }
+    .footer-text{
+        left: 30%;
+    }
+}
