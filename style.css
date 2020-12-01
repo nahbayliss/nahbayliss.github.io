@@ -143,6 +143,10 @@ button:hover{
     background-color: black;
     height: 2px;
 }
+.thumbnailProject:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=30);
+}
 .seemoreBtn{
     height: 100px !important;
 }
@@ -183,4 +187,22 @@ button:hover{
 }
 .img-responsive{
     padding-bottom: 3%;
+}
+.projectPageTxt{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.projectPageH3{
+    text-align: right;
+    margin-right: 0;
+}
+.projectspageLine{
+    color: black;
+    background-color: black;
+    height: 2px;
+    margin-left: 50%;
+}
+.projectsP{
+    margin-left: 50%;
+    margin-bottom: 5%;
 }
