@@ -206,3 +206,26 @@ button:hover{
     margin-left: 50%;
     margin-bottom: 5%;
 }
+.projectSubPage{
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+.subpageH3{
+    margin-right: 0;
+    border-left: solid white;
+    padding-left: 20px;
+}
+.subpageBG{
+    background: #060606;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.subpageWhiteP{
+    color: white;
+    margin-bottom: 50px;
+}
+.subpageContent{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
