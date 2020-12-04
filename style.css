@@ -193,8 +193,9 @@ button:hover{
     padding-left: 15%;
 }
 .projectPageH3{
-    text-align: right;
+    text-align: center;
     margin-right: 0;
+    color: white;
 }
 .projectspageLine{
     color: black;
@@ -203,8 +204,10 @@ button:hover{
     margin-left: 50%;
 }
 .projectsP{
-    margin-left: 50%;
+    margin-right: 50%;
     margin-bottom: 5%;
+    border-left: solid black;
+    padding-left: 3%;
 }
 .projectSubPage{
     margin-top: 50px;
@@ -228,4 +231,13 @@ button:hover{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 50px;
+}
+.projectsBanner{
+    background-image: url(images/projectsbanner.png);
+    margin-top: 50px;
+}
+h6{
+    font-size: 34px;
+        padding-top: 50px;
+    padding-bottom: 50px;
 }
